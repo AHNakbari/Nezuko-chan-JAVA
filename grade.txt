@@ -1,19 +1,22 @@
-Thu Jun  1 13:52:56 UTC 2023
+Thu Jun  1 14:00:20 UTC 2023
 GAg: 
-Exception in thread "main" hardwar.branch.prediction.judge.TestFailedException: Test failed, 101 out of 1000 assertions passed
-	at hardwar.branch.prediction.judge.Judge.main(Judge.java:39)
+Test passed, 1000 out of 1000 assertions passed
+
 GAp: 
-Exception in thread "main" hardwar.branch.prediction.judge.TestFailedException: Test failed, 287 out of 1000 assertions passed
-	at hardwar.branch.prediction.judge.Judge.main(Judge.java:39)
+Test passed, 1000 out of 1000 assertions passed
+
 GAs: 
-Exception in thread "main" hardwar.branch.prediction.judge.TestFailedException: Test failed, 203 out of 1000 assertions passed
-	at hardwar.branch.prediction.judge.Judge.main(Judge.java:39)
+Test passed, 1000 out of 1000 assertions passed
+
 PAg: 
-Exception in thread "main" hardwar.branch.prediction.judge.TestFailedException: Test failed, 102 out of 1000 assertions passed
-	at hardwar.branch.prediction.judge.Judge.main(Judge.java:39)
-PAp: 
-Exception in thread "main" hardwar.branch.prediction.judge.TestFailedException: Test failed, 260 out of 1000 assertions passed
-	at hardwar.branch.prediction.judge.Judge.main(Judge.java:39)
+Test passed, 1000 out of 1000 assertions passed
+
+Exception in thread "main" java.lang.RuntimeException: Could not find the class: hardwar.branch.prediction.judged.PAp.PAp
+	at hardwar.branch.prediction.judge.ReflectivePredictorProvider.displayErrorAndExit(ReflectivePredictorProvider.java:22)
+	at hardwar.branch.prediction.judge.ReflectivePredictorProvider.getPredictorClass(ReflectivePredictorProvider.java:70)
+	at hardwar.branch.prediction.judge.ReflectivePredictorProvider.getPredictor(ReflectivePredictorProvider.java:32)
+	at hardwar.branch.prediction.judge.Judge.getSimulator(Judge.java:48)
+	at hardwar.branch.prediction.judge.Judge.main(Judge.java:31)
 PAs: 
 Exception in thread "main" hardwar.branch.prediction.judge.TestFailedException: Test failed, 262 out of 1000 assertions passed
 	at hardwar.branch.prediction.judge.Judge.main(Judge.java:39)
